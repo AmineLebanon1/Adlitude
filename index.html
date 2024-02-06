@@ -220,7 +220,10 @@ document.getElementById('user_option').addEventListener('click', () => {
             });
     }
 });
-
+var url = window.location.href;
+url = url.split('.html')[0];
+//url = url.substring(0, url.lastIndexOf("."));
+window.history.replaceState( null, null, url );
 
  // Add an event listener to the "Read More" button
  document.getElementById('readMoreBtn').addEventListener('click', function(event) {
@@ -250,10 +253,7 @@ window.scrollTo({
     behavior: 'smooth'
 });
 });
-var url = window.location.href;
-url = url.split('.html')[0];
-//url = url.substring(0, url.lastIndexOf("."));
-window.history.replaceState( null, null, url );
+
 </script>
 
   
@@ -355,7 +355,7 @@ while also earning more revenue
       <div class="heading_container heading_center">
         
         <h2>
-           <span>About Us</span>
+          <span>About Us</span>
         </h2>
         
         
