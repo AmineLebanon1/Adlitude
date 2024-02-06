@@ -530,7 +530,6 @@ a:focus {
 }
 
 .about_section {
-  background-image: url(/images/aboutus-bg.png);
   background-size: cover; /* This property ensures that the background image covers the entire section */
   background-position: center; /* This property centers the background image */
   -webkit-box-flex: 1;
@@ -554,10 +553,12 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+    
 }
 
 .about_section .img-box img {
   max-width: 100%;
+  
 }
 
 .about_section .detail-box h3 {
