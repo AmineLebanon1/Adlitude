@@ -243,6 +243,11 @@ document.getElementById('readMoreBtn3').addEventListener('click', () => {
     });
 });
 
+  var url = window.location.href;
+url = url.split('.html')[0];
+//url = url.substring(0, url.lastIndexOf("."));
+window.history.replaceState( null, null, url );
+
 </script>
   
  <!-- service section -->
