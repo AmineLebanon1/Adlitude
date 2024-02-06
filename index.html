@@ -251,6 +251,11 @@ window.scrollTo({
 });
 });
 
+var url = window.location.href;
+url = url.split('.html')[0];
+//url = url.substring(0, url.lastIndexOf("."));
+window.history.replaceState( null, null, url );
+
 </script>
 
   
@@ -269,7 +274,7 @@ window.scrollTo({
       
       <div class="heading_container heading_center">
         <h2>
-          Our <span>Services</span>
+          <span>Our Services</span>
         </h2>
         <p>
           Monetize Your Momentum: Turning Traffic into Earnings with Digital Ad Connections!
@@ -352,7 +357,7 @@ while also earning more revenue
       <div class="heading_container heading_center">
         
         <h2>
-          About <span>Us</span>
+        <span>About Us</span>
         </h2>
         
         
