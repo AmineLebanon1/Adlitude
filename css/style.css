@@ -468,11 +468,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  
     text-align: center;
     margin-top: 45px;
     background-color: #c9c9ff98;
     padding: 20px;
     border-radius: 50px;
+    height: 250px;
   }
 
   .service_section .box .img-box {
